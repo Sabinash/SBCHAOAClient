@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sbchaoabg1"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="DuplicateIds,ObsoleteLayoutParam,HardcodedText,Deprecated" >
+
+        <LinearLayout
+            android:id="@+id/editText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <Spinner
+                android:id="@+id/sptype"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="#e1e1e1"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flat Number"
+                android:textColor="#FF6633"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/flatnbr"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:background="#e1e1e1"
+                android:ems="10"
+                android:hint="Enter FlatNumber..." >
+
+                <requestFocus />
+            </EditText>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#FF6633"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/mpassword"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:background="#e1e1e1"
+                android:ems="10"
+                android:hint="Enter Password..."
+                android:password="true" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/middle1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editText"
+            android:gravity="center"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <Button
+                android:id="@+id/btnlogIn"
+                style="@style/CustomStyleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="LogIn" />
+
+            <Button
+                android:id="@+id/btnsignup"
+                style="@style/CustomStyleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/btnlogIn"
+                android:text="Sign Up" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

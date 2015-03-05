@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SBCHAOA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TO CHANGED LATER -->
+    <string name="registration_page">Registration Page</string>
+    <string name="registration_button">Register</string>
+    <string name="select_type">Select Type</string>
+    <string name="select_block">Select Block</string>
+    <string name="select_flat">Select Flat No</string>
+    <string name="select_floor">Select Floor No</string>
+    
+     <string-array name="type_owner">
+        <item>Owner</item>
+        <item>Co-Owner</item>
+    </string-array>
+
+     <string-array name="blocks_name">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+    <string-array name="floors_name">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="flats_name">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+    </string-array>
+    
+</resources>

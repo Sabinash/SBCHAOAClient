@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sbchaoabg1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="BROADCAST" />
+
+    <Button
+        android:id="@+id/udtwaterbill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/broadcast"
+        android:layout_alignLeft="@+id/broadcast"
+        android:layout_alignRight="@+id/broadcast"
+        android:text="UPDATE WATER BILL " />
+
+    <Button
+        android:id="@+id/udtmaintenancebill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/udtwaterbill"
+        android:layout_alignLeft="@+id/udtwaterbill"
+        android:layout_alignRight="@+id/udtwaterbill"
+        android:text="UPDATE MAINTENANCE BILL " />
+
+    <Button
+        android:id="@+id/viewregistereduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/udtmaintenancebill"
+        android:layout_alignLeft="@+id/udtmaintenancebill"
+        android:layout_alignRight="@+id/udtmaintenancebill"
+        android:text="VIEW REGISTERED USER " />
+
+    <Button
+        android:id="@+id/viewnominationlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewregistereduser"
+        android:layout_alignLeft="@+id/viewregistereduser"
+        android:layout_alignRight="@+id/viewregistereduser"
+        android:text="VIEW NOMINATIONLIST " />
+
+    <Button
+        android:id="@+id/createnominationcatagory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewnominationlist"
+        android:layout_alignLeft="@+id/viewnominationlist"
+        android:layout_alignRight="@+id/viewnominationlist"
+        android:text="CREATE NOMINATION CATAGORY" />
+
+</RelativeLayout>

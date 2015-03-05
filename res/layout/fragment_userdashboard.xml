@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sbchaoabg1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/helpline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="HELP LINE" />
+
+    <Button
+        android:id="@+id/wtrbillsts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/helpline"
+        android:layout_alignLeft="@+id/helpline"
+        android:layout_alignRight="@+id/helpline"
+        android:text="WATERBILL STASTUS" />
+
+    <Button
+        android:id="@+id/maintenancests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wtrbillsts"
+        android:layout_alignLeft="@+id/wtrbillsts"
+        android:layout_alignRight="@+id/wtrbillsts"
+        android:text="MAINTENANCE STATUS" />
+
+    <Button
+        android:id="@+id/vote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/maintenancests"
+        android:layout_alignLeft="@+id/maintenancests"
+        android:layout_alignRight="@+id/maintenancests"
+        android:text="VOTE" />
+
+</RelativeLayout>
